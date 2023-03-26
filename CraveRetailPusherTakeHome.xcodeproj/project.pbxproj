@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1919DE529D0E38900F34717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1919DE429D0E38900F34717 /* AppDelegate.swift */; };
+		D1919DE729D0E38900F34717 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1919DE629D0E38900F34717 /* SceneDelegate.swift */; };
+		D1919DE929D0E38900F34717 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1919DE829D0E38900F34717 /* ViewController.swift */; };
+		D1919DEC29D0E38900F34717 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1919DEA29D0E38900F34717 /* Main.storyboard */; };
+		D1919DEE29D0E38A00F34717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1919DED29D0E38A00F34717 /* Assets.xcassets */; };
+		D1919DF129D0E38A00F34717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1919DEF29D0E38A00F34717 /* LaunchScreen.storyboard */; };
+		D1919DFC29D0E38A00F34717 /* CraveRetailPusherTakeHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1919DFB29D0E38A00F34717 /* CraveRetailPusherTakeHomeTests.swift */; };
+		D1919E0629D0E38A00F34717 /* CraveRetailPusherTakeHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1919E0529D0E38A00F34717 /* CraveRetailPusherTakeHomeUITests.swift */; };
+		D1919E0829D0E38A00F34717 /* CraveRetailPusherTakeHomeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1919E0729D0E38A00F34717 /* CraveRetailPusherTakeHomeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1919DF829D0E38A00F34717 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1919DD929D0E38900F34717 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1919DE029D0E38900F34717;
+			remoteInfo = CraveRetailPusherTakeHome;
+		};
+		D1919E0229D0E38A00F34717 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1919DD929D0E38900F34717 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1919DE029D0E38900F34717;
+			remoteInfo = CraveRetailPusherTakeHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1919DE129D0E38900F34717 /* CraveRetailPusherTakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CraveRetailPusherTakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1919DE429D0E38900F34717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1919DE629D0E38900F34717 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D1919DE829D0E38900F34717 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1919DEB29D0E38900F34717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1919DED29D0E38A00F34717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1919DF029D0E38A00F34717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1919DF229D0E38A00F34717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1919DF729D0E38A00F34717 /* CraveRetailPusherTakeHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CraveRetailPusherTakeHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1919DFB29D0E38A00F34717 /* CraveRetailPusherTakeHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraveRetailPusherTakeHomeTests.swift; sourceTree = "<group>"; };
+		D1919E0129D0E38A00F34717 /* CraveRetailPusherTakeHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CraveRetailPusherTakeHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1919E0529D0E38A00F34717 /* CraveRetailPusherTakeHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraveRetailPusherTakeHomeUITests.swift; sourceTree = "<group>"; };
+		D1919E0729D0E38A00F34717 /* CraveRetailPusherTakeHomeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraveRetailPusherTakeHomeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1919DDE29D0E38900F34717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1919DF429D0E38A00F34717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1919DFE29D0E38A00F34717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1919DD829D0E38900F34717 = {
+			isa = PBXGroup;
+			children = (
+				D1919DE329D0E38900F34717 /* CraveRetailPusherTakeHome */,
+				D1919DFA29D0E38A00F34717 /* CraveRetailPusherTakeHomeTests */,
+				D1919E0429D0E38A00F34717 /* CraveRetailPusherTakeHomeUITests */,
+				D1919DE229D0E38900F34717 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1919DE229D0E38900F34717 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1919DE129D0E38900F34717 /* CraveRetailPusherTakeHome.app */,
+				D1919DF729D0E38A00F34717 /* CraveRetailPusherTakeHomeTests.xctest */,
+				D1919E0129D0E38A00F34717 /* CraveRetailPusherTakeHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1919DE329D0E38900F34717 /* CraveRetailPusherTakeHome */ = {
+			isa = PBXGroup;
+			children = (
+				D1919DE429D0E38900F34717 /* AppDelegate.swift */,
+				D1919DE629D0E38900F34717 /* SceneDelegate.swift */,
+				D1919DE829D0E38900F34717 /* ViewController.swift */,
+				D1919DEA29D0E38900F34717 /* Main.storyboard */,
+				D1919DED29D0E38A00F34717 /* Assets.xcassets */,
+				D1919DEF29D0E38A00F34717 /* LaunchScreen.storyboard */,
+				D1919DF229D0E38A00F34717 /* Info.plist */,
+			);
+			path = CraveRetailPusherTakeHome;
+			sourceTree = "<group>";
+		};
+		D1919DFA29D0E38A00F34717 /* CraveRetailPusherTakeHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1919DFB29D0E38A00F34717 /* CraveRetailPusherTakeHomeTests.swift */,
+			);
+			path = CraveRetailPusherTakeHomeTests;
+			sourceTree = "<group>";
+		};
+		D1919E0429D0E38A00F34717 /* CraveRetailPusherTakeHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1919E0529D0E38A00F34717 /* CraveRetailPusherTakeHomeUITests.swift */,
+				D1919E0729D0E38A00F34717 /* CraveRetailPusherTakeHomeUITestsLaunchTests.swift */,
+			);
+			path = CraveRetailPusherTakeHomeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1919DE029D0E38900F34717 /* CraveRetailPusherTakeHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1919E0B29D0E38A00F34717 /* Build configuration list for PBXNativeTarget "CraveRetailPusherTakeHome" */;
+			buildPhases = (
+				D1919DDD29D0E38900F34717 /* Sources */,
+				D1919DDE29D0E38900F34717 /* Frameworks */,
+				D1919DDF29D0E38900F34717 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CraveRetailPusherTakeHome;
+			productName = CraveRetailPusherTakeHome;
+			productReference = D1919DE129D0E38900F34717 /* CraveRetailPusherTakeHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1919DF629D0E38A00F34717 /* CraveRetailPusherTakeHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1919E0E29D0E38A00F34717 /* Build configuration list for PBXNativeTarget "CraveRetailPusherTakeHomeTests" */;
+			buildPhases = (
+				D1919DF329D0E38A00F34717 /* Sources */,
+				D1919DF429D0E38A00F34717 /* Frameworks */,
+				D1919DF529D0E38A00F34717 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1919DF929D0E38A00F34717 /* PBXTargetDependency */,
+			);
+			name = CraveRetailPusherTakeHomeTests;
+			productName = CraveRetailPusherTakeHomeTests;
+			productReference = D1919DF729D0E38A00F34717 /* CraveRetailPusherTakeHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1919E0029D0E38A00F34717 /* CraveRetailPusherTakeHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1919E1129D0E38A00F34717 /* Build configuration list for PBXNativeTarget "CraveRetailPusherTakeHomeUITests" */;
+			buildPhases = (
+				D1919DFD29D0E38A00F34717 /* Sources */,
+				D1919DFE29D0E38A00F34717 /* Frameworks */,
+				D1919DFF29D0E38A00F34717 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1919E0329D0E38A00F34717 /* PBXTargetDependency */,
+			);
+			name = CraveRetailPusherTakeHomeUITests;
+			productName = CraveRetailPusherTakeHomeUITests;
+			productReference = D1919E0129D0E38A00F34717 /* CraveRetailPusherTakeHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1919DD929D0E38900F34717 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D1919DE029D0E38900F34717 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D1919DF629D0E38A00F34717 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D1919DE029D0E38900F34717;
+					};
+					D1919E0029D0E38A00F34717 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D1919DE029D0E38900F34717;
+					};
+				};
+			};
+			buildConfigurationList = D1919DDC29D0E38900F34717 /* Build configuration list for PBXProject "CraveRetailPusherTakeHome" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1919DD829D0E38900F34717;
+			productRefGroup = D1919DE229D0E38900F34717 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1919DE029D0E38900F34717 /* CraveRetailPusherTakeHome */,
+				D1919DF629D0E38A00F34717 /* CraveRetailPusherTakeHomeTests */,
+				D1919E0029D0E38A00F34717 /* CraveRetailPusherTakeHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1919DDF29D0E38900F34717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1919DF129D0E38A00F34717 /* LaunchScreen.storyboard in Resources */,
+				D1919DEE29D0E38A00F34717 /* Assets.xcassets in Resources */,
+				D1919DEC29D0E38900F34717 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1919DF529D0E38A00F34717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1919DFF29D0E38A00F34717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1919DDD29D0E38900F34717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1919DE929D0E38900F34717 /* ViewController.swift in Sources */,
+				D1919DE529D0E38900F34717 /* AppDelegate.swift in Sources */,
+				D1919DE729D0E38900F34717 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1919DF329D0E38A00F34717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1919DFC29D0E38A00F34717 /* CraveRetailPusherTakeHomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1919DFD29D0E38A00F34717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1919E0829D0E38A00F34717 /* CraveRetailPusherTakeHomeUITestsLaunchTests.swift in Sources */,
+				D1919E0629D0E38A00F34717 /* CraveRetailPusherTakeHomeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1919DF929D0E38A00F34717 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1919DE029D0E38900F34717 /* CraveRetailPusherTakeHome */;
+			targetProxy = D1919DF829D0E38A00F34717 /* PBXContainerItemProxy */;
+		};
+		D1919E0329D0E38A00F34717 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1919DE029D0E38900F34717 /* CraveRetailPusherTakeHome */;
+			targetProxy = D1919E0229D0E38A00F34717 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1919DEA29D0E38900F34717 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1919DEB29D0E38900F34717 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1919DEF29D0E38A00F34717 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1919DF029D0E38A00F34717 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1919E0929D0E38A00F34717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1919E0A29D0E38A00F34717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1919E0C29D0E38A00F34717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WTJ5T9YQ63;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CraveRetailPusherTakeHome/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jess.CraveRetailPusherTakeHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1919E0D29D0E38A00F34717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WTJ5T9YQ63;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CraveRetailPusherTakeHome/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jess.CraveRetailPusherTakeHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1919E0F29D0E38A00F34717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WTJ5T9YQ63;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jess.CraveRetailPusherTakeHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CraveRetailPusherTakeHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CraveRetailPusherTakeHome";
+			};
+			name = Debug;
+		};
+		D1919E1029D0E38A00F34717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WTJ5T9YQ63;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jess.CraveRetailPusherTakeHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CraveRetailPusherTakeHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CraveRetailPusherTakeHome";
+			};
+			name = Release;
+		};
+		D1919E1229D0E38A00F34717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WTJ5T9YQ63;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jess.CraveRetailPusherTakeHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CraveRetailPusherTakeHome;
+			};
+			name = Debug;
+		};
+		D1919E1329D0E38A00F34717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WTJ5T9YQ63;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jess.CraveRetailPusherTakeHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CraveRetailPusherTakeHome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1919DDC29D0E38900F34717 /* Build configuration list for PBXProject "CraveRetailPusherTakeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1919E0929D0E38A00F34717 /* Debug */,
+				D1919E0A29D0E38A00F34717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1919E0B29D0E38A00F34717 /* Build configuration list for PBXNativeTarget "CraveRetailPusherTakeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1919E0C29D0E38A00F34717 /* Debug */,
+				D1919E0D29D0E38A00F34717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1919E0E29D0E38A00F34717 /* Build configuration list for PBXNativeTarget "CraveRetailPusherTakeHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1919E0F29D0E38A00F34717 /* Debug */,
+				D1919E1029D0E38A00F34717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1919E1129D0E38A00F34717 /* Build configuration list for PBXNativeTarget "CraveRetailPusherTakeHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1919E1229D0E38A00F34717 /* Debug */,
+				D1919E1329D0E38A00F34717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1919DD929D0E38900F34717 /* Project object */;
+}
