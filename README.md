@@ -29,19 +29,21 @@
 ## What I Would Have Done
 
 #### Tests, tests, tests
-     We all start out with the best of intentions right? My plan was to write so many tests. There
-     are exactly zero. The Pusher aspect of this took longer than I anticipated and tests were the
-     sacrifice. As an auditor in a former life, that decision hurt.
+     We all start out with the best of intentions right? My plan was to write so many 
+     tests. There are exactly zero. The Pusher aspect of this took longer than I anticipated
+     and tests were the sacrifice. As an auditor in a former life, that decision hurt.
      
 #### Architecture Decisions
-    In researching which pattern I wanted to use, I ran across many that I had not heard of before.
-    Given more time, I would have liked to look into those patterns to see if one would be more appropriate
-    here. My "learn this" bookmarks folder just keeps growing. 
+    In researching which pattern I wanted to use, I ran across many that I had not 
+    heard of before. Given more time, I would have liked to look into those patterns
+    to see if one would be more appropriate here. My "learn this" bookmarks folder 
+    just keeps growing. 
     
 #### The View Controller Trap
-     I approached this with the idea of "get it all working and then move it where it should go.
-     As a result, the view controller is doing things I'd prefer it not do. I should have approached
-     this differently and put things where they belonged to begin with. On the bright side, it is all working. 
+     I approached this with the idea of "get it all working and then move it where
+     it should go. As a result, the view controller is doing things I'd prefer it 
+     not do. I should have approached this differently and put things where they belonged
+     to begin with. On the bright side, it is all working. 
 
 
 ## Things I Learned
