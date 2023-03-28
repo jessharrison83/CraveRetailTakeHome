@@ -9,20 +9,27 @@ import UIKit
 import PusherSwift
 import Foundation
 
-class MessageListViewController: UITableViewController {
+class MessageListViewController: UIViewController, UITableViewDataSource {
   
   var pusher: Pusher! = nil
   var messages = [Message]()
   
-//time constraints prevented implementing disconnect/reconnect buttons. I decided to use my time to write unit tests. 
-// func disconnect() {
-//    pusher.disconnect()
-//  }
-//
-//func reconnect() {
-//    pusher.connect()
-//  }
-//
+  @IBOutlet weak var tableView: UITableView!
+  
+  @IBAction func disconnect() {
+    let disconnectAlert = UIAlertController(title: "Pusher Disconnected", message: "Please press Reconnect to resume messages.", preferredStyle: .alert)
+    let OKAction = UIAlertAction(title: "OK", style: .default) { (action) in
+    }
+    disconnectAlert.addAction(OKAction)
+    
+    pusher.disconnect()
+    self.present(disconnectAlert, animated: true)
+  }
+  
+  @IBAction func reconnect() {
+    pusher.connect()
+  }
+  
   
   // calculate size of received json object
   func calculateSize(_ data: AnyObject) -> String {
@@ -54,7 +61,6 @@ class MessageListViewController: UITableViewController {
         let pusherMessage = Message(title: title, body: message, dataSize: messageSize, thumbnail: thumbnail)
         
         self.messages.insert(pusherMessage, at: self.messages.startIndex)
-        print(self.messages)
         
         let indexPath = IndexPath(row: 0, section: 0)
         self.tableView.insertRows(at: [indexPath], with: UITableView.RowAnimation.left)
@@ -62,11 +68,11 @@ class MessageListViewController: UITableViewController {
     })
   }
   
-  override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+  internal func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return messages.count
   }
   
-  override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+  internal func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     guard let cell = tableView.dequeueReusableCell(withIdentifier: "MessageCell", for: indexPath) as? MessageCell else { fatalError("Could not create MessageCell") }
     let message = messages[indexPath.row]
     cell.titleLabel.text = message.title

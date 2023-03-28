@@ -20,6 +20,8 @@
 		D1919E0829D0E38A00F34717 /* CraveRetailPusherTakeHomeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1919E0729D0E38A00F34717 /* CraveRetailPusherTakeHomeUITestsLaunchTests.swift */; };
 		D1919E3F29D2269300F34717 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1919E3E29D2269300F34717 /* Message.swift */; };
 		D1919E4129D22FEE00F34717 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1919E4029D22FEE00F34717 /* MessageCell.swift */; };
+		D1919E4B29D26AB300F34717 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1919E4A29D25A9300F34717 /* Main.storyboard */; };
+		D1919E4F29D2710200F34717 /* ButtonsTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1919E4E29D2710200F34717 /* ButtonsTitleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,7 @@
 		D1919E3E29D2269300F34717 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		D1919E4029D22FEE00F34717 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		D1919E4A29D25A9300F34717 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D1919E4E29D2710200F34717 /* ButtonsTitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsTitleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				D1919DE829D0E38900F34717 /* MessageListViewController.swift */,
+				D1919E4E29D2710200F34717 /* ButtonsTitleViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -313,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1919E4B29D26AB300F34717 /* Main.storyboard in Resources */,
 				D1919DF129D0E38A00F34717 /* LaunchScreen.storyboard in Resources */,
 				D1919DEE29D0E38A00F34717 /* Assets.xcassets in Resources */,
 			);
@@ -442,6 +447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1919E4F29D2710200F34717 /* ButtonsTitleViewController.swift in Sources */,
 				D1919DE929D0E38900F34717 /* MessageListViewController.swift in Sources */,
 				D1919E4129D22FEE00F34717 /* MessageCell.swift in Sources */,
 				D1919E3F29D2269300F34717 /* Message.swift in Sources */,
