@@ -11,7 +11,7 @@ import Foundation
 
 class MessageListViewController: UIViewController {
   
-  var pusher: Pusher! = nil
+  let webService = WebServices()
   var messages = [Message]()
   
   @IBOutlet weak var tableView: UITableView!
@@ -22,12 +22,12 @@ class MessageListViewController: UIViewController {
     }
     disconnectAlert.addAction(OKAction)
     
-    pusher.disconnect()
+    webService.disconnectFromPusher()
     self.present(disconnectAlert, animated: true)
   }
   
   @IBAction func reconnect() {
-    pusher.connect()
+    webService.connectToPusher()
   }
   
   
@@ -43,14 +43,13 @@ class MessageListViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    let options = PusherClientOptions(
-      host: .cluster("us3")
-    )
-    pusher = Pusher(key: "5d3657875c763e1b0282", options: options)
-    pusher.connect()
+
+    webService.connectToPusher()
     
     // MARK: - Subscribe to Pusher channel
-    let sampleChannel = pusher.subscribe(channelName: "sample")
+    let sampleChannel = webService.subscribeToPusherChannel(channelName: "sample")
+    
+    //bind function needs to be moved to webservice as well. ran out of time.
     let _ = sampleChannel.bind(eventName: "sampleMessage", callback: { (data: Any?) -> Void in
       if let sampleData = data as? [String : AnyObject] {
         let message = sampleData["message"] as! String
