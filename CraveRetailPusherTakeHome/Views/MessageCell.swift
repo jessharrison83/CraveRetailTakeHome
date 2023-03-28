@@ -8,9 +8,12 @@
 import UIKit
 
 class MessageCell: UITableViewCell {
-  @IBOutlet var titleLabel: UILabel!
-  @IBOutlet var bodyLabel: UILabel!
-  @IBOutlet var dataSizeLabel: UILabel!
   
-  @IBOutlet var thumbnail: UIImage? = UIImage(systemName: "sun.and.horizon.filled")
+  static let identifier = "MessageCell"
+  
+  @IBOutlet weak var titleLabel: UILabel!
+  @IBOutlet weak var bodyLabel: UILabel!
+  @IBOutlet weak var dataSizeLabel: UILabel!
+  
+  @IBOutlet weak var thumbnail: UIImage!
 }

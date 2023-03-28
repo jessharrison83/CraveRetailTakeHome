@@ -9,7 +9,7 @@ import UIKit
 import PusherSwift
 import Foundation
 
-class MessageListViewController: UIViewController, UITableViewDataSource {
+class MessageListViewController: UIViewController {
   
   var pusher: Pusher! = nil
   var messages = [Message]()
@@ -31,7 +31,7 @@ class MessageListViewController: UIViewController, UITableViewDataSource {
   }
   
   
-  // calculate size of received json object
+  // calculate and format size of received json object
   func calculateSize(_ data: AnyObject) -> String {
     let bytes = data.count
     let formatter = ByteCountFormatter()
@@ -68,12 +68,17 @@ class MessageListViewController: UIViewController, UITableViewDataSource {
     })
   }
   
+
+}
+
+//MARK: - Table View Data Source
+extension MessageListViewController: UITableViewDataSource {
   internal func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return messages.count
   }
   
   internal func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    guard let cell = tableView.dequeueReusableCell(withIdentifier: "MessageCell", for: indexPath) as? MessageCell else { fatalError("Could not create MessageCell") }
+    guard let cell = tableView.dequeueReusableCell(withIdentifier: MessageCell.identifier, for: indexPath) as? MessageCell else { fatalError("Could not create MessageCell") }
     let message = messages[indexPath.row]
     cell.titleLabel.text = message.title
     cell.bodyLabel.text = message.body
